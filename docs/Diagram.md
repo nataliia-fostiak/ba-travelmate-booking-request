@@ -21,7 +21,7 @@ sequenceDiagram
     System-->>User: Display hotel rating and reviews
 
     %% Step 4
-    User->>System: Open list of available rooms & click desired room
+    User->>System: Open list of available rooms and click desired room
     System-->>User: Select relevant room
 
     %% Step 5
@@ -31,7 +31,7 @@ sequenceDiagram
     System-->>User: Confirm room is available for dates
 
     %% Step 6
-    User->>System: Enter personal details & click 'Save'
+    User->>System: Enter personal details and click 'Save'
     System->>Database: Save personal information
 
     %% Step 7
@@ -54,5 +54,5 @@ sequenceDiagram
     %% Step 12 & 13
     System->>Database: Proceed with room booking
     System->>Database: Send booking details to the hotel
-    System-->>User: Send booking confirmation to email & display booking in account
-    ```
+    System-->>User: Send booking confirmation to email and display booking in account
+```
