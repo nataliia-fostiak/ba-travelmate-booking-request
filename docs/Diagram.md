@@ -1,5 +1,4 @@
-# Feature: The booking process (Booking flow):
- from choosing a room to payment and receiving confirmation.
+# Feature: The booking process (Booking flow):from choosing a room to payment and receiving confirmation.
 ## Use Case: The booking process. The main participants in the diagram are the User, the Hotel System, and the Database / External Services. The diagram depicts the complete online hotel booking scenario, starting from browsing the hotel details, selecting a room and dates, entering personal information, and processing the payment, up to successfully booking the room and sending a confirmation to the user's email.
 ```mermaid
 sequenceDiagram
